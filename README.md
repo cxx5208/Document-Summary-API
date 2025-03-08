@@ -23,21 +23,13 @@ Below is a detailed technical overview of how the system is structured and how t
 
 ---
 
-![image](https://github.com/user-attachments/assets/41a5ba49-adfb-432e-b23d-f80c7d862ee9)
+
 
 
 ## Project Architecture
 
 ```
-┌─────────────┐      HTTP      ┌─────────────────────┐
-│  Streamlit  │ <------------> │      FastAPI         │
-│   Frontend  │               │(Document Summary API) │
-└─────────────┘               └─────────────────────┘
-                       |
-                       | (File System / Memory)
-                       v
-                   DocumentProcessor
-                   (Summarization & QA)
+![image](https://github.com/user-attachments/assets/41a5ba49-adfb-432e-b23d-f80c7d862ee9)
 ```
 
 1. **Streamlit (UI Layer)**  
