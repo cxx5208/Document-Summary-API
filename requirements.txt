@@ -1,0 +1,14 @@
+fastapi>=0.104.0
+uvicorn>=0.23.2
+python-multipart>=0.0.6
+langchain>=0.0.310
+chromadb>=0.4.17
+openai>=1.2.0
+tiktoken>=0.5.1
+pypdf>=3.17.0
+docx2txt>=0.8
+pydantic>=2.4.2
+pytest>=7.4.3
+httpx>=0.24.1
+python-magic>=0.4.27
+sentence-transformers>=2.2.2

@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./uploads:/app/uploads
+      - ./document_metadata:/app/document_metadata
+      - ./chroma_db:/app/chroma_db
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - USE_LOCAL_EMBEDDINGS=${USE_LOCAL_EMBEDDINGS:-false}
+      - USE_LOCAL_LLM=${USE_LOCAL_LLM:-false}
