@@ -30,6 +30,7 @@ Below is a detailed technical overview of how the system is structured and how t
 
 
 ![image](https://github.com/user-attachments/assets/41a5ba49-adfb-432e-b23d-f80c7d862ee9)
+<img width="1274" alt="image" src="https://github.com/user-attachments/assets/b909ae33-d571-4c01-b9bb-e96388900faa" />
 
 
 
